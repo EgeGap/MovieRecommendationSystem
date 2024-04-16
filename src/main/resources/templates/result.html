@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <link rel="stylesheet" href="css/ResultPage.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Result</title>
+  </head>
+  <body>
+    <h1>Movie Advice Result</h1>
+    <div class="result-box">
+      <p>
+        Recommended movie for you: <span th:text="${recommendedMovie}"></span>
+      </p>
+    </div>
+  </body>
+</html>

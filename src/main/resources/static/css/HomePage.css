@@ -1,0 +1,91 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
+  padding: 10px;
+  background: linear-gradient(to right, #7000C9, #0000ff);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 32px; 
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e6f7ff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px; 
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+label,
+input[type="email"],
+input[type="text"]{
+  width: 97%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  color: #DADADA; 
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#userEmail {
+  color: #000000;
+}
+
+#filmNames{
+  color: #000000;
+}
+
+#filmInputs label,
+#filmInputs input[type="text"] {
+  color: #000000;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#errorMsg {
+  color: red;
+  font-weight: bold;
+}
